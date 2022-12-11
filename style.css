@@ -7,13 +7,14 @@ body{
     padding: 0;
     overflow-x: hidden;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.265306) 0%, #BDEFCF 100%);
-    width: 100vw;
+    width: 100vw; 
+    
 }
 
 .nav{
     position: fixed;
     width: 100vw;
-    background: rgba(217, 217, 217, 0.01);
+    background: rgba(252, 255, 250, 0.338);
     backdrop-filter: blur(5px);
     padding: 20px;
     margin: auto;
@@ -31,6 +32,7 @@ body{
     margin: auto;
     
 }
+
 
 .picnav{
     float: left;
@@ -108,6 +110,10 @@ p{
 
 .nextmatch{
     margin: 0%;
+    width: 430px;
+    position: relative;
+        left: -15px;
+    z-index: -50;
 }
 
 .rumo{
@@ -162,12 +168,14 @@ p{
 
 .pi{
     padding-left: 100px;
+    width: 565px;
 }
 
 .wcc{
-    width: 820px;
+    width: 100%;
     margin: auto;
     margin-top: 40px;
+    text-align: center;
 }
 
 .gallery{
@@ -187,8 +195,7 @@ p{
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 27px;
-    align-items: center;
-    justify-content: center;
+
     text-align: center;
     padding: 50px;
 }
@@ -201,3 +208,278 @@ a{
 a:hover{
     color: #FDDC02;
 }
+
+.galpic{
+    width: 390px;
+}
+
+.nvmg{
+    width: 130px;
+}
+
+.twimg{
+    width: 284px;
+}
+
+.navm{
+    width: 130px;
+}
+
+.tw{
+    width: 466px;
+}
+
+.rank{
+    width: 80vw;
+}
+
+
+@media (max-width:1000px){
+
+    .nav{
+        position: fixed;
+        width: 100vw;
+        background: rgba(217, 217, 217, 0.01);
+        backdrop-filter: blur(5px);
+        padding: 20px;
+        margin: auto;
+        visibility: hidden;
+    
+        
+    }
+    
+    .sectionav{
+        visibility: hidden;
+        width: 90vw;
+        height: 50px;
+        background: linear-gradient(269.73deg, #193375 0%, #19AE47 100%);
+        border-radius: 13px;
+        color: white;
+        margin: auto;
+        
+    }
+    
+    
+    .picnav{
+        float: left;
+        padding: 4px;
+    }
+    
+    
+    ul{
+        
+        font-family: 'montserrat';
+        font-size: px;
+        font-weight: 700;
+        display: flex;
+        float: right;
+        list-style: none;
+        margin-top: 20px;
+        visibility: hidden;
+        
+    }
+    
+    li{
+        visibility: hidden;
+        margin-right: 12px;
+    }
+    
+    h1{
+        
+        font-family: 'Nerko One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+      
+        width: fit-content;
+        background: linear-gradient(81.63deg, #FDDC02 6.04%, #19AE47 54.7%, #193375 97.1%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        border: 7px solid rgba(253, 220, 2, 0.01);
+        margin: 0%;
+        
+    
+    }
+    
+    h3{
+        font-family: 'Poppins';
+        font-weight: 900;
+        font-size: 20px;
+        color: #193375;
+    }
+    
+    .Sectionhome{
+        padding-top: 30px;
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .ONE{
+        width: unset;
+    }
+    
+    .TWO{
+        text-align: center;
+      
+        width: unset;
+    }
+    
+    p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        
+        color: #193375;
+        
+    }
+    
+    .nextmatch{
+        margin: 0%;
+        width: 70vw;
+        position: relative;
+        left: -13px;
+    }
+    
+    .rumo{
+        width: max-content;
+        margin: auto;
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    
+    .sectiontwo{
+        
+        display: block;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .twobr{
+        padding-left: 30px;
+        float: right;
+    }
+    
+    
+    .wc{
+        width: max-content;
+        margin: auto;
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .dvwc{
+        margin-top: 70px;
+    }
+
+    #two{
+        margin-top: 50px;
+        
+    }
+    
+    
+    .sectiontre{
+        display: block;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .match{
+        font-family: 'poppins';
+        font-size: small;
+    }
+    
+    .a{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 54px;
+        
+        color: #86113F;
+    }
+    
+    .pi{
+        padding-top:20px ;
+        padding-left: 0px;
+        width: 80vw;
+    }
+    
+    .wcc{
+        width: 100vw;
+        margin: auto;
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    
+
+    .gallery{
+    
+        width: fit-content;
+        margin: auto;
+        margin-top: 0px;
+        
+    }
+
+    .galpic{
+        width: 100px;
+    }
+    
+    .green{
+        
+        width: 90vw;
+        height: fit-content;
+        background-color: #19AE47;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+    
+        text-align: center;
+        padding: 50px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover{
+        color: #FDDC02;
+    }
+    
+    
+    
+    .nvmg{
+        width: 130px;
+    }
+    
+    .twimg{
+        width: 80px;
+        margin: auto;
+    }
+    
+    .navm{
+        width: 130px;
+    }
+
+    .tw{
+        width: 80vw;
+    }
+    .rank{
+        width: 80vw;
+    }
+
+    .tw{
+        margin-bottom: 30px;
+    }
+}    
