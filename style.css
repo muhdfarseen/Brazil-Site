@@ -7,7 +7,7 @@ body{
     padding: 0;
     overflow-x: hidden;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.265306) 0%, #BDEFCF 100%);
-    width: 1440px;
+    width: 100vw;
 }
 
 .nav{
@@ -16,24 +16,19 @@ body{
     background: rgba(217, 217, 217, 0.01);
     backdrop-filter: blur(5px);
     padding: 20px;
+    margin: auto;
 
     
 }
 
 .sectionav{
     
+    width: 90vw;
     height: 50px;
-    width: 100;
     background: linear-gradient(269.73deg, #193375 0%, #19AE47 100%);
     border-radius: 13px;
     color: white;
-    
-}
-
-navitem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
     
 }
 
